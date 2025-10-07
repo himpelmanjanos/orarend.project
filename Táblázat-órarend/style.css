@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+header {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    height: 60px;
+    color: black;
+  }
+
+.logo {
+    font-weight: bold;
+    font-size: 35px;
+    margin-right: 40px;
+    color: white;
+  }
+
+.menu-item {
+    margin-right: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: font-size 0.3s ease;
+    color: white;
+  }
+
+.menu-item:hover {
+    font-size: 22px;
+  }
+
+td{
+    border: 2px black solid;
+}
+
+table{
+    height: 525px;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    font-size: 10px;
+}
+
+.ido{
+    margin-bottom: -15px;
+}
+
+
+.oraszam{
+    width: 50px;
+    font-size: 20px;
+}
+
+.oszlop1{
+    width: 75px;
+}
+
+.hatodik{
+    height: 65px;
+}
+
+.negyedik{
+    height: 65px;
+}
+
+.masodik{
+    height: 65px;
+}
