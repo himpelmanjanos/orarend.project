@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Történelem</title>
+<link rel="stylesheet" href="/tantargyaink/tantargyaink.css">
+</head>
+<body>
+ 
+<header>
+    <div class="logo"><a href="/orarend/index.html">11.E</a></div>
+    <div class="menu-item"><a href="/tantargy/tantargy.html">Tantárgyaink</a></div>
+    <div class="menu-item"><a href="/tanar/tanarok.html">Tanáraink</a></div>
+</header>
+<img src="/img/főoldal/shared image 1.png" alt="">
+
+<div class="card">
+    <h1>Történelem</h1>
+    <p>
+        A történelem tantárgy célja a diákok múltbéli események és folyamatok megismerése, valamint a társadalom fejlődésének megértése. 
+        A tantárgy segít a diákoknak kritikus gondolkodásuk fejlesztésében és történelmi összefüggések felismerésében.
+    </p>
+    <p>
+        Az órák során a tanulók elemzik a történelmi eseményeket, vizsgálják az ok-okozati összefüggéseket, és értelmezik a múlt tanulságait. 
+        Ezen keresztül fejlődik a logikus gondolkodás és a kutatási készség.
+    </p>
+    <p>
+        A történelem segít a diákoknak megérteni a jelen világot, az identitásukat és a társadalmi felelősségvállalást. 
+        A múlt tanulmányozása elősegíti az empátia és a kritikai gondolkodás fejlődését.
+    </p>
+</div>
+
+<footer>
+    <div class="footer-left">&copy; 2025 11.E Osztály</div>
+        <div class="footer-right">
+            <a href="#">Kapcsolat</a>
+            <a href="#">Adatvédelem</a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

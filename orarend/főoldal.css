@@ -1,0 +1,172 @@
+body {
+    background-color: #f3f6f9;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #333;
+}
+
+table {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    background-color: #0078D7;
+    color: white;
+    font-size: 16px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.ido {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    width: 80px;
+}
+
+.tantargy {
+    background-color: #e8f0fe;
+    padding: 6px;
+}
+
+.tantargy a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.tantargy a:hover {
+    text-decoration: underline;
+    color: #084b8a;
+}
+
+.tanar a {
+    color: #222021;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+.tanar a:hover {
+    text-decoration: underline;
+    color: #333;
+}
+
+td.empty {
+    background-color: #fafafa;
+}
+
+#magyar{
+    background-color: #795C34;
+}
+
+#matek{
+    background-color: #1E90FF;
+}
+
+#fizika{
+    background-color: #74C365;
+}
+
+#tesi{
+    background-color: #F4EBDC;
+}
+
+#szakmai{
+    background-color: #acfffc;
+}
+
+#tori{
+    background-color: #FFE000;
+}
+
+#osztfo{
+    background-color: #B4B990;
+}
+
+#angol{
+    background-color: #949494;
+}
+ 
+header {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    height: 60px;
+    color: white;
+}
+ 
+.logo {
+    font-weight: bold;
+    font-size: 35px;
+    margin-right: 40px;
+    color: white;
+}
+ 
+.menu-item {
+    margin-right: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: font-size 0.3s ease;
+    color: white;
+}
+ 
+.menu-item:hover {
+    font-size: 22px;
+    color: white;
+}
+ 
+main {
+    flex: 1; 
+    padding: 20px;
+}
+ 
+footer {
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 60px;
+    margin-top: auto; 
+}
+ 
+.footer-left {
+    font-size: 16px;
+}
+ 
+.footer-right a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    transition: font-size 0.3s ease;
+    font-size: 16px;
+}
+ 
+.footer-right a:hover {
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
